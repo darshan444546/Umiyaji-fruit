@@ -1,0 +1,146 @@
+#header-div
+{
+	padding: 40px;
+	background-color:#90bb1a;
+	color: white;
+	width: 110%;
+	z-index: 300;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#MENU
+{
+	display: none;
+}
+.shopping-cart
+{
+	width: 50%;
+	height: 30px;
+	margin-top: 5px;
+}
+/*----dropdown menu------*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {display: block;}
+.dropdown a:hover {background-color: #ddd;}
+.mySlides {display:none;}
+/*-------------------------------------SERVICES-------------------------------------------------*/
+.circular-div
+{
+	border: 1px solid;
+	padding:10px;
+	border-radius:100% ;
+	align-items: center;
+	width: 90%;
+	height: auto;
+	background-color: #28a745;;
+	}
+#arremg-div
+{
+	margin-left: 250px;
+}
+/*-----------------------------------------------------Our Products--------------------------------------------------------*/
+#FRUIT-images
+{
+	width: 100%;
+	height: 300px;
+}
+.Add_To_Cart
+{
+	border-color: red;
+	color: red;
+	background-color: white;
+}
+.Add_To_Cart:hover
+{
+	background-color: red;
+	color: white;
+}
+#footer-div
+{
+	margin-left: 90px;
+}
+#location
+{
+	width: 100%;
+}
+@media screen and (max-width: 900px)
+{
+	#header-div .col-lg-1
+	{
+		display: none;
+	}
+	.shopping-cart
+	{
+		width: 10%;
+	}	
+
+	#MENU 	{
+		display: block;
+	}
+	#MENU ul
+	{
+		list-style-type: none;
+		
+	}
+	#arremg-div
+	{
+	margin-left: 0px;
+	}
+	.SERVICE-IMAGES
+{
+	width: 50%;
+	height: auto;
+	margin-left: 20px;
+}
+.circular-div
+{
+	border: 1px solid;
+	padding:10px;
+	border-radius:100% ;
+	align-items: center;
+	width: 30%;
+	height: auto;
+	background-color: #28a745;;
+	}
+
+	#footer-div
+	{
+	margin-left: unset;
+	}
+}
